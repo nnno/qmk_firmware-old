@@ -39,10 +39,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
    *       voldn  super shift space bspc|| alt  ent    L0  prtsc scroll pause
    */
   [_LW] = LAYOUT( /* [> LOWER <] */
-    KC_EXLM, KC_AT,   KC_HASH, KC_DLR,  KC_PERC,                   KC_CIRC, KC_AMPR, KC_ASTR, KC_LPRN, KC_RPRN,
-    KC_DELT, KC_LEFT, KC_DOWN, KC_RGHT, KC_DOWN,                   KC_DOWN, KC_F4,   KC_F5,   KC_F6,   KC_COLON,
-    KC_NO,   KC_VOLU, KC_NO,   KC_NO,   KC_NO,                     KC_NO,   KC_F1,   KC_F2,   KC_UP,   KC_F12 ,
-    KC_NO,   KC_VOLD, KC_LGUI, KC_LSFT, KC_SPC, KC_LCBR, KC_RCBR, KC_ENT,  TO(_QW), KC_LEFT, KC_DOWN, KC_RGHT
+    KC_EXLM, KC_AT,   KC_HASH, KC_DLR,  KC_PERC,                   KC_CIRC, KC_AMPR, KC_ASTR, KC_LPRN,  KC_RPRN,
+    KC_DELT, KC_LEFT, KC_DOWN, KC_RGHT, KC_DOWN,                   KC_LEFT, KC_DOWN, KC_UP,   KC_RIGHT, KC_COLON,
+    KC_NO,   KC_VOLU, KC_NO,   KC_NO,   KC_NO,                     KC_NO,   KC_F1,   KC_F2,   KC_UP,    KC_F12 ,
+    KC_NO,   KC_VOLD, KC_LGUI, KC_LSFT, KC_SPC, KC_LCBR, KC_RCBR, KC_ENT,  TO(_QW),  KC_NO,   KC_NO,    KC_NO
   )
 };
 
