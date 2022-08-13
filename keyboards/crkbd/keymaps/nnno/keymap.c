@@ -57,7 +57,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
       KC_LSFT,    KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,                         KC_N,    KC_M, KC_COMM,  KC_DOT, KC_SLSH, KC_RSFT,\
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
-                                 GUI_T(KC_LANG2),   KC_SPC,   LOWER,      RAISE,  KC_ENT,  ALT_T(KC_LANG1) \
+                                 GUI_T(KC_LANG2),   KC_SPC,   LOWER,      RAISE,  KC_ENT, ALT_T(KC_LANG1) \
                                       //`--------------------------'  `--------------------------'
 
   ),
@@ -70,7 +70,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
       KC_LSFT, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                      XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,\
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
-                                 GUI_T(KC_LANG2),   KC_SPC,   LOWER,      RAISE,  KC_ENT,  ALT_T(KC_LANG1) \
+                                 GUI_T(KC_LANG2),   KC_SPC,   LOWER,      RAISE,  KC_ENT, ALT_T(KC_LANG1) \
                                       //`--------------------------'  `--------------------------'
     ),
 
@@ -82,10 +82,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
       KC_LSFT, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                      KC_UNDS, KC_PLUS, KC_LBRC, KC_RBRC, KC_BSLS, KC_TILD,\
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
-                                 GUI_T(KC_LANG2),   KC_SPC,   LOWER,      RAISE,  KC_ENT,  ALT_T(KC_LANG1) \
+                                 GUI_T(KC_LANG2),   KC_SPC,   LOWER,      RAISE,  KC_ENT, ALT_T(KC_LANG1) \
                                       //`--------------------------'  `--------------------------'
   ),
-
+  
   [_ADJUST] = LAYOUT_split_3x6_3( \
   //,-----------------------------------------------------.                    ,-----------------------------------------------------.
         RESET,  RGBRST, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                      XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,\
@@ -94,7 +94,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
       RGB_MOD, RGB_HUD, RGB_SAD, RGB_VAD, XXXXXXX, XXXXXXX,                      XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,\
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
-                                 GUI_T(KC_LANG2),   KC_SPC,   LOWER,      RAISE,  KC_ENT,  ALT_T(KC_LANG1) \
+                                 GUI_T(KC_LANG2),   KC_SPC,   LOWER,      RAISE,  KC_ENT, ALT_T(KC_LANG1) \
                                       //`--------------------------'  `--------------------------'
   )
 };
